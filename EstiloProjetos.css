@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: "Lilita One", sans-serif;} /*Reset*/
+
+    html{scroll-behavior: smooth}
+.MainHeader
+{
+z-index: 2;
+background-color: black;
+width: 100%;
+min-height: 80px;
+position: fixed;
+}
+.MainHeader .MainHeaderContent
+{
+display:flex;
+max-width: 1300px;
+margin: 0 auto;
+}
+.MainHeader .MainHeaderContent .MainHeaderContentMenu
+{
+flex-basis:cal(100% - 290px);
+
+}
+.MainHeader .MainHeaderContent .MainHeaderContentMenu .navegação
+{
+   text-align: center;
+   font-size: 1.5em;
+   display:flex;
+   word-spacing: 40px;
+   padding-left: 100px;
+   padding-top: 35px;
+}
+
+.Intro{
+padding: 100px;
+display: block;
+}
+
+.Intro img{
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+    margin:auto;
+    display: block;
+}
+.Projetos_Main{
+        background-color: black;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    
+}
+
+.Projetos_Main h1{
+    background-color: white;
+    color:black;
+    padding-left: 2vw;
+    font-size: 2em;
+}
+
+.Blank h4{
+    color: transparent; /* make the text invisible */
+    user-select: none;
+    background-color: gainsboro;
+}
+
+.Aviso h1{
+    background-color: red;
+    font-size: 2em;
+}
+.Aviso {
+background-color: red;
+padding: 1vh;
+}
+.Projetos_Main img{
+    padding-top: 2vh;
+    width: 80vh;
+    display: inline-block;
+}
+
+.Projetos_Main h2{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-top: 2vh;
+    color: white;
+    padding-bottom: 2vh;
+}
+
+.Download {
+    padding-right: 5vh;
+    font-weight: bold;
+    font-size: 2em;
+}
+.Footer{
+    padding:2vh;
+    }

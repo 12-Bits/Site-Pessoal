@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: "Lilita One", sans-serif;} /*Reset*/
+
+    html{scroll-behavior: smooth}
+.MainHeader
+{
+z-index: 2;
+background-color: black;
+width: 100%;
+min-height: 80px;
+position: fixed;
+}
+.MainHeader .MainHeaderContent
+{
+display:flex;
+max-width: 1300px;
+margin: 0 auto;
+}
+.MainHeader .MainHeaderContent .MainHeaderContentMenu
+{
+flex-basis:cal(100% - 290px);
+
+}
+.MainHeader .MainHeaderContent .MainHeaderContentMenu .navegação
+{
+   text-align: center;
+   font-size: 1.5em;
+   display:flex;
+   word-spacing: 40px;
+   padding-left: 100px;
+   padding-top: 35px;
+}
+
+.Titulo{
+   text-align: center;
+   background-color: black;
+}
+.Texto h1{
+z-index: 1;
+ font-size:5em;
+ font-weight: bold;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color:white
+}
+.Main_Page{
+    padding-top: 80vh;
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    background-color: black;
+}
+.Box {
+    background-color: lightblue;
+    width: 45%; /* Cada caixa ocupará 45% do espaço disponível */
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.Box h1{
+padding-left: 10px;
+font-size: 3em;
+background-color: white;
+}
+.Box p{
+margin:20px;
+font-size:1.5em;
+}
+.Box h3{
+    margin-left: 3vw;
+    margin-top: 7vw;
+    position: absolute;
+    font-size: 1.5em;
+    }
+.Box h4{
+    margin-left: 1.7vw;
+    margin-top: 7vw;
+    position: absolute;
+    font-size: 1.5em;
+     }
+.Box img{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin:auto;
+    width: 300px;
+    display: block;
+}
+.break{
+    background-color: black;
+}
+.break h1{
+    color: transparent; /* make the text invisible */
+    user-select: none;
+}
+
+.Propaganda h1{
+    background-color: white;
+    color: black;
+
+
+}
+.PropagandaSpace h1{
+    background-color: black;
+    color: transparent; /* make the text invisible */
+    user-select: none;
+}
+
+.Footer{
+padding:2vh;
+}
