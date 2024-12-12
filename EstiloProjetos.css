@@ -101,4 +101,8 @@ padding: 1vh;
 }
 .Footer{
     padding:2vh;
-    }
+}
+
+a :visited{
+    color:white;
+}
