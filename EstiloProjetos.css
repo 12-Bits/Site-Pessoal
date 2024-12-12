@@ -46,6 +46,7 @@ display: block;
     padding-bottom: 5vh;
     margin:auto;
     display: block;
+    object-fit: contain;
 }
 .Projetos_Main{
         background-color: black;
