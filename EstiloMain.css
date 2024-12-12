@@ -89,6 +89,7 @@ font-size:1.5em;
 .Box img{
     padding-top: 2vh;
     padding-bottom: 2vh;
+    width: 40vh;
     display: block;
     object-fit: contain;
 }

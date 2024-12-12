@@ -44,6 +44,7 @@ display: block;
 .Intro img{
     padding-top: 1vh;
     padding-bottom: 5vh;
+    margin:auto;
     display: block;
     object-fit: contain;
 }
