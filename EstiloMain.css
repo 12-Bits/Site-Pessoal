@@ -39,6 +39,7 @@ flex-basis:cal(100% - 290px);
 .Titulo{
    text-align: center;
    background-color: black;
+   width: 100%;
 }
 .Texto h1{
 z-index: 1;
@@ -89,9 +90,10 @@ font-size:1.5em;
 .Box img{
     padding-top: 2vh;
     padding-bottom: 2vh;
+    margin:auto;
     width: 40vh;
     display: block;
-    object-fit: contain;
+    object-fit: contain
 }
 .break{
     background-color: black;
