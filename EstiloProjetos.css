@@ -103,6 +103,11 @@ padding: 1vh;
     padding:2vh;
 }
 
-a :visited{
+a:visited{
+    color:white;
+}
+
+
+a{
     color:white;
 }
