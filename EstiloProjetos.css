@@ -68,7 +68,7 @@ width: 100%;
 .Blank h4{
     color: transparent; /* make the text invisible */
     user-select: none;
-    background-color: gainsboro;
+    background-color: white;
 }
 
 .Aviso h1{
