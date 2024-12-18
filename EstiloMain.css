@@ -124,6 +124,9 @@ font-size:1.5em;
     color: transparent; 
     user-select: none;
 }
+.Propaganda_Mobile_Space{
+    display:none;
+  }
 
 .Footer{
 padding:2vh;
@@ -197,5 +200,16 @@ align-items:baseline;
         width: 25vh;
         display: block;
         object-fit: contain
+    
   }
+  .PropagandaSpace{
+    display:none;
+  }
+  .Propaganda_Mobile_Space{
+    display:block;
+    background-color: black;
+    color: transparent; 
+    user-select: none;
+  }
+
 }
