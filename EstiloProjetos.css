@@ -83,7 +83,7 @@ padding: 1vh;
 }
 .Projetos_Main img{
     padding-top: 2vh;
-    width: 80vh;
+    width: 80%;
     display: inline-block;
 }
 
@@ -149,6 +149,12 @@ align-items:baseline;
     width: 60vw;
 }
 
+.Projetos_Main img{
+    padding-top: 2vh;
+    width: 50%;
+    display: inline-block;
+}
+
   @media (max-width: 500px) {
     .MainHeader {
 font-size: 0.65em;
@@ -209,4 +215,10 @@ align-items:baseline;
     user-select: none;
 
   }
+
+  .Projetos_Main img{
+    padding-top: 2vh;
+    width: 40%;
+    display: inline-block;
+}
 }
