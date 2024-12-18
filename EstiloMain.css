@@ -13,6 +13,7 @@
         font-weight: 400;
         font-style: normal;
       }
+      
 .MainHeader
 {
 z-index: 2;
@@ -39,8 +40,10 @@ flex-basis:cal(100% - 290px);
    display:flex;
    word-spacing: 40px;
    padding-left: 100px;
+   padding-right: 100px;
    padding-top: 35px;
    text-decoration: none;
+   align-items: center;
    
 }
 
@@ -76,6 +79,7 @@ flex-basis:cal(100% - 290px);
     border-style: solid;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 100px;
 
 }
 .Box h1{
@@ -107,13 +111,7 @@ font-size:1.5em;
     display: block;
     object-fit: contain
 }
-.break{
-    background-color: white;
-}
-.break h1{
-    color: transparent; /* make the text invisible */
-    user-select: none;
-}
+
 
 .Propaganda h1{
     background-color: white;
@@ -123,7 +121,7 @@ font-size:1.5em;
 }
 .PropagandaSpace h1{
     background-color: black;
-    color: transparent; /* make the text invisible */
+    color: transparent; 
     user-select: none;
 }
 
@@ -139,3 +137,57 @@ a:visited{
 a{
     color:white;
 }
+
+@media (max-width: 920px) {
+    .MainHeader {
+font-size: 0.65em;
+word-spacing: 100px;
+padding-top: 0.5vh;
+align-items:baseline;
+
+    }
+    .Main_Page{
+    display:block;
+    }
+    .Titulo{
+        font-size: 0.8em;
+    }
+    .Box{
+        width: 90%;
+        margin-bottom: 100px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .MainHeader {
+font-size: 0.65em;
+word-spacing: 100px;
+padding-top: 0.5vh;
+align-items:baseline;
+
+    }
+    .Main_Page{
+    display:block;
+    }
+    .Titulo{
+        font-size: 0.8em;
+    }
+    .Box{
+        width: 90%;
+        margin-bottom: 100px;
+        padding-left: 0px;
+        margin-left:5vw;
+      
+    }
+    .Box h3{
+        margin-left: 3vw;
+        margin-top: 15vw;
+        position: absolute;
+        font-size: 1em;
+        }
+    .Box h4{
+        margin-left: 1vw;
+        margin-top: 15vw;
+        font-size: 1em;
+         }
+  }
