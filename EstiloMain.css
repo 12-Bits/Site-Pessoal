@@ -159,6 +159,15 @@ align-items:baseline;
         width: 90%;
         margin-bottom: 100px;
     }
+    .PropagandaSpace{
+        display:none;
+      }
+      .Propaganda_Mobile_Space{
+        display:block;
+        background-color: black;
+        color: transparent; 
+        user-select: none;
+      }
   }
 
   @media (max-width: 500px) {
