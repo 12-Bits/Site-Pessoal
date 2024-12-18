@@ -160,7 +160,7 @@ align-items:baseline;
 }
 
 .Projetos_Main img{
-    padding-top: vh;
+    padding-top: 1vh;
     width: 50%;
     display: inline-block;
 }
@@ -238,7 +238,7 @@ align-items:baseline;
   }
 
   .Projetos_Main img{
-    padding-top: 2vh;
+    padding-top: 1vh;
     width: 40%;
     display: inline-block;
 }
