@@ -147,10 +147,13 @@ align-items:baseline;
   }
   .Intro img{
     width: 60vw;
+    padding-top: 50vh;
+    margin-top: 50vh;
+
 }
 
 .Projetos_Main img{
-    padding-top: 2vh;
+    padding-top: 5vh;
     width: 50%;
     display: inline-block;
 }
