@@ -212,18 +212,20 @@ align-items:baseline;
         object-fit: contain
     
   }
-  .Propaganda {
+.Propaganda{
     display: none;
 }
-.Propaganda_Mobile h1{
+.Propaganda_Mobile {
+    display:list-item;
     background-color: white;
     color: black;
-    display: block;
+
   }
   .Propaganda_Mobile_Space h1{
+    display:list-item;
     background-color: black;
     color: transparent; 
     user-select: none;
-    display: block;
+
   }
 }
