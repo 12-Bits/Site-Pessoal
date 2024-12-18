@@ -161,10 +161,11 @@ align-items:baseline;
         background-color: white;
         color: black;
     }
-    .PropagandaSpace{
-        display:none;
-    }
-    .Propaganda_Mobile_Space{
+    .Propaganda_Mobile h1{
+        background-color: white;
+        color: black;
+      }
+      .Propaganda_Mobile_Space{
         display:block;
         background-color: black;
         color: transparent; 
@@ -213,12 +214,10 @@ align-items:baseline;
         object-fit: contain
     
   }
-  .Propaganda h1{
+  .Propaganda_Mobile h1{
     background-color: white;
     color: black;
-}
-  .PropagandaSpace{
-    display:none;
+
   }
   .Propaganda_Mobile_Space{
     display:block;
@@ -226,5 +225,4 @@ align-items:baseline;
     color: transparent; 
     user-select: none;
   }
-
 }
