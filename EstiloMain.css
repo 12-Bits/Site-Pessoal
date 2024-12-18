@@ -107,7 +107,7 @@ font-size:1.5em;
     padding-top: 2vh;
     padding-bottom: 2vh;
     margin:auto;
-    width: 40vh;
+    width: 100vh;
     display: block;
     object-fit: contain
 }
@@ -157,6 +157,14 @@ align-items:baseline;
         width: 90%;
         margin-bottom: 100px;
     }
+    .Box img{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        margin:auto;
+        width: 100vh;
+        display: block;
+        object-fit: contain
+    }
     .Propaganda {
         display: none;
     }
@@ -171,7 +179,7 @@ align-items:baseline;
       }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 480px) {
     .MainHeader {
 font-size: 0.65em;
 word-spacing: 100px;
@@ -207,7 +215,7 @@ align-items:baseline;
         padding-top: 2vh;
         padding-bottom: 2vh;
         margin:auto;
-        width: 25vh;
+        width: 100vh;
         display: block;
         object-fit: contain
     

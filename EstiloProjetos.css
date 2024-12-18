@@ -28,14 +28,16 @@ flex-basis:cal(100% - 290px);
 }
 .MainHeader .MainHeaderContent .MainHeaderContentMenu .navegação
 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-align: center;
    font-size: 1.5em;
    display:flex;
    word-spacing: 40px;
    padding-left: 100px;
+   padding-right: 100px;
    padding-top: 35px;
    text-decoration: none;
+   align-items: center;
+   
 }
 
 .Intro{
@@ -110,4 +112,101 @@ a:visited{
 
 a{
     color:white;
+}
+
+@media (max-width: 920px) {
+    .MainHeader {
+font-size: 0.65em;
+word-spacing: 100px;
+padding-top: 0.5vh;
+align-items:baseline;
+
+    }
+    .Main_Page{
+    display:block;
+    }
+    .Titulo{
+        font-size: 0.8em;
+    }
+    .Box{
+        width: 90%;
+        margin-bottom: 100px;
+    }
+    .Propaganda {
+        display: none;
+    }
+    .Propaganda_Mobile h1{
+        background-color: white;
+        color: black;
+      }
+      .Propaganda_Mobile_Space h1{
+        background-color: black;
+        color: transparent; 
+        user-select: none;
+      }
+  }
+  .Intro img{
+    width: 60vw;
+}
+
+  @media (max-width: 500px) {
+    .MainHeader {
+font-size: 0.65em;
+word-spacing: 10px;
+padding-top: 0vh;
+align-items:baseline;
+
+    }
+    .Main_Page{
+    display:block;
+    }
+    .Intro img{
+        width: 50vw;
+    }
+    .Titulo{
+        font-size: 0.8em;
+    }
+    .Box{
+        width: 90%;
+        margin-bottom: 100px;
+        padding-left: 0px;
+        margin-left:5vw;
+      
+    }
+    .Box h3{
+        margin-left: 3vw;
+        margin-top: 15vw;
+        position: absolute;
+        font-size: 1em;
+        }
+    .Box h4{
+        margin-left: 1vw;
+        margin-top: 15vw;
+        font-size: 1em;
+         }
+    .Box img{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        margin:auto;
+        width: 25vh;
+        display: block;
+        object-fit: contain
+    
+  }
+.Propaganda{
+    display: none;
+}
+.Propaganda_Mobile {
+    display:list-item;
+    background-color: white;
+    color: black;
+
+  }
+  .Propaganda_Mobile_Space h1{
+    display:list-item;
+    background-color: black;
+    color: transparent; 
+    user-select: none;
+
+  }
 }
