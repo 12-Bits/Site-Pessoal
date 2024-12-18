@@ -190,4 +190,12 @@ align-items:baseline;
         margin-top: 15vw;
         font-size: 1em;
          }
+    .Box img{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        margin:auto;
+        width: 20vh;
+        display: block;
+        object-fit: contain
   }
+}
