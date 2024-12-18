@@ -149,7 +149,14 @@ align-items:baseline;
     width: 60vw;
     padding-top: 5vh;
     margin-top: 5vh;
-
+}
+.Box img{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin:auto;
+    width: 25vh;
+    display: block;
+    object-fit: contain
 }
 
 .Projetos_Main img{
@@ -212,7 +219,6 @@ align-items:baseline;
         width: 25vh;
         display: block;
         object-fit: contain
-    
   }
 .Propaganda{
     display: none;
