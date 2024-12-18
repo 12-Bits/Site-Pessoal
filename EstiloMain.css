@@ -116,8 +116,6 @@ font-size:1.5em;
 .Propaganda h1{
     background-color: white;
     color: black;
-
-
 }
 .PropagandaSpace h1{
     background-color: black;
@@ -159,10 +157,14 @@ align-items:baseline;
         width: 90%;
         margin-bottom: 100px;
     }
+    .Propaganda h1{
+        background-color: white;
+        color: black;
+    }
     .PropagandaSpace{
         display:none;
-      }
-      .Propaganda_Mobile_Space{
+    }
+    .Propaganda_Mobile_Space{
         display:block;
         background-color: black;
         color: transparent; 
@@ -211,6 +213,10 @@ align-items:baseline;
         object-fit: contain
     
   }
+  .Propaganda h1{
+    background-color: white;
+    color: black;
+}
   .PropagandaSpace{
     display:none;
   }
