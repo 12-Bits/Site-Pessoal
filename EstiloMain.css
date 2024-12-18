@@ -122,9 +122,9 @@ font-size:1.5em;
     color: transparent; 
     user-select: none;
 }
-.Propaganda_Mobile_Space{
+.Propaganda_Mobile{
     display:none;
-  }
+}
 
 .Footer{
 padding:2vh;
@@ -157,16 +157,14 @@ align-items:baseline;
         width: 90%;
         margin-bottom: 100px;
     }
-    .Propaganda h1{
-        background-color: white;
-        color: black;
+    .Propaganda {
+        display: none;
     }
     .Propaganda_Mobile h1{
         background-color: white;
         color: black;
       }
-      .Propaganda_Mobile_Space{
-        display:block;
+      .Propaganda_Mobile_Space h1{
         background-color: black;
         color: transparent; 
         user-select: none;
@@ -214,13 +212,14 @@ align-items:baseline;
         object-fit: contain
     
   }
-  .Propaganda_Mobile h1{
+  .Propaganda {
+    display: none;
+}
+.Propaganda_Mobile h1{
     background-color: white;
     color: black;
-
   }
-  .Propaganda_Mobile_Space{
-    display:block;
+  .Propaganda_Mobile_Space h1{
     background-color: black;
     color: transparent; 
     user-select: none;
