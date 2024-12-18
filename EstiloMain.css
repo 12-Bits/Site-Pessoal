@@ -218,10 +218,12 @@ align-items:baseline;
 .Propaganda_Mobile h1{
     background-color: white;
     color: black;
+    display: block;
   }
   .Propaganda_Mobile_Space h1{
     background-color: black;
     color: transparent; 
     user-select: none;
+    display: block;
   }
 }
